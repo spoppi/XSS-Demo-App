@@ -14,9 +14,9 @@ It is vulnerable to (at least) cross-site scripting (XSS) in the http parameter 
 Simply create a subdirectory below your sever's root directory (e.g. `/var/www/html/subdir` for Apache httpd) and extract the project. Make sure your webserver supports PHP (for Apache e.g. `a2enmod php8.2`).
 
 Create a subdir named `tmp` and make it accessible and writeable for `www-data` (or whatever user and group your webserver uses):
-># mkdir tmp
-># chown www-data:www-data tmp
-># chmod 750 tmp
+> # mkdir tmp
+> # chown www-data:www-data tmp
+> # chmod 750 tmp
 
 ## Usage
 https://server/subdir/index.php		Initally calls the login form, else opens the home page
