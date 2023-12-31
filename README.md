@@ -1,6 +1,6 @@
 # Intentionally vulnerable PHP website for article *The Underestimated Dangers of Cross-Site Scripting*
 
-This simple (ugly) project was created for accompanying my article about *The Understimated Dangers of Cross-Site Scripting* at [Medium](https://medium.com/@spoppi/). It was created solely for demonstation purposes.
+This simple (ugly) project was created for accompanying my article about *The Understimated Dangers of Cross-Site Scripting* at [Medium](https://medium.com/@spoppi/the-underestimated-dangers-of-cross-site-scripting-1cbbf7b62686). It was created solely for demonstation purposes.
 
 It is vulnerable to (at least) cross-site scripting (XSS) in the http parameter `msg` as well as via log injection and leaks (pseudo) authentication token via response header.
 
